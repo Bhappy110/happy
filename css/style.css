@@ -1,0 +1,66 @@
+
+.jumbotron{
+	background-image: url('../img/1.jpg');
+	background-attachment: fixed; 
+	background-size: cover;
+	
+}
+.jumbotron .header{
+	margin-top: 40px;
+	color: white;
+}
+.jumbotron img{
+	width: 200px;
+	box-shadow: 1px,1px 10px rgba(0,0,0,0.5);
+
+}
+.profile img{
+	width: 200px;
+}
+.profile .simbol{
+	width: 30px;
+}
+.footer{
+	background-color: #f0f5f5;
+	padding: 2.5rem;
+}
+.button{
+	width: 20px;
+}
+.blog-main,.blog-sidebar{
+	opacity : 0;
+	transform: translate(-50px, 0);
+	transition: 1s;
+}
+.blog-sidebar{
+	transform: translate(50px, 0);
+}
+.blog-main.muncul, .blog-sidebar.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.nick{
+	opacity : 0;
+	transform: translate(0, -50px);
+	transition: 1.5s;
+}
+.kerja{
+	opacity : 0;
+	transform: translate(0, -50px);
+	transition: 2s;
+}
+.logo{
+	opacity : 0;
+	transform: translate(0, -50px);
+	transition: 1s;
+}
+.nick.muncul, .kerja.muncul,.logo.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+#navbarNav{
+	font-size: 19px;
+	padding-bottom: 10px;
+	transition: 0.2s;
+}
